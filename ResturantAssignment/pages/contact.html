@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title> Restaurant</title>
+</head>
+
+<body>
+    <!-- Nabbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+        <a class="navbar-brand" href="#"> RestaurantLOGO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./category.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About Us</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <a href="./login.html"><button class="btn">Login</button></a>
+            </ul>
+        </div>
+    </nav>
+    <!-- Container -->
+    <section class="main-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-12 contact-header">
+                    <div class="overlay"></div>
+                </div>
+                <div class="con-heading">
+                    <h2>Contact Us</h2>
+                    <p class="font-itallic">if you are hungry</p>
+                </div>
+                <div class="col-12 contact-main mt-5">
+                    <form action="" class="row g-3">
+                        <div class="col-md-6">
+                            <label for="firstName" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="firstName" required>
+
+
+                        </div>
+                        <div class="col-md-6">
+                            <label for="lastName" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="lastName" required>
+                        </div>
+                        <div class="col-md-8">
+                            <label for="emailInfo" class="form-label">Email: </label>
+                            <input type="email" class="form-control" id="emailInfo" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="phoneNumber" class="form-label">Phone Number: </label>
+                            <input type="text" class="form-control" id="phoneNumber" placeholder="+977 01 477859">
+                        </div>
+                        <div class="col-md-12">
+                            <label for="message" class="form-label">Message: </label>
+                            <textarea class="form-control" id="message" rows="3" required></textarea>
+                        </div>
+                        <div class="col-mg-12">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                    <div class="row mt-5">
+                        <div class="col-md-6">
+                            <h3>Address</h3>
+                            <p>Thapathali, Kathmandu</p>
+                            <p>9845215725, 01478556</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h3>Follow Us:</h3>
+                            <div class="social-links">
+                                <!-- Facebook -->
+                                <a style="color: #3b5998;" href="#!" role="button"><i class="fab fa-facebook-square fa-lg"></i></a>
+    
+                                <!-- Twitter -->
+                                <a style="color: #55acee;" href="#!" role="button"><i class="fab fa-twitter fa-lg"></i></a>
+    
+                                <!-- Google -->
+                                <a style="color: #dd4b39;" href="#!" role="button"><i class="fab fa-google fa-lg"></i></a>
+    
+                                <!-- Instagram -->
+                                <a style="color: #ac2bac;" href="#!" role="button"><i
+                                        class="fab fa-instagram fa-lg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="bg-light text-center text-lg-start" id="footer">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            &copy; 2021 Copyright:
+            <a class="text-dark" href="#">Niranjan Kumar Patel</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
+<script src="./bootstrap/js/bootstrap.min.js"></script>
+
+</html>
